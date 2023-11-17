@@ -16,13 +16,14 @@
 **   **
 ![1 2](https://github.com/CrookedCoookie/LR6/assets/113693061/9e10c2b7-a510-4a49-a43b-f3149f6007b7)
 #
-**4.** Просмотр действий с веткой командой git log --all.
+**4.** Просмотр действий с веткой командой git log -w.
 **   **
-![1 3](https://github.com/CrookedCoookie/LR6/assets/113693061/5bd714e2-8de1-4515-96cb-0c029001582f)
+![image](https://github.com/CrookedCoookie/LR6/assets/113693061/d3a1e547-a479-488c-9c66-b91479c66996)
+
 #
-**5.** В гитхабе был создан новый файл, который сохранился в новой ветке Branch1. Произошло слияние Branch1 в master.
+**5.** В гитхабе был создан новый файл, который сохранился в новой ветке MergeBranch. Произошло слияние MergeBranch в master.
 **   **
-![1 4](https://github.com/CrookedCoookie/LR6/assets/113693061/df4920b1-f680-440e-9f68-0354b172210f)
+![image](https://github.com/CrookedCoookie/LR6/assets/113693061/b6900b1b-eeba-44d6-8a7e-f78a4ee2ec83)
 #
 **6.**  Создан новый пустой файл, с помощью команды git add был добавлен в гит, а позже был сделан первый коммит.
 **   **
@@ -38,7 +39,7 @@
 git clone https://github.com/CrookedCoookie/LR6
 cd C:\Users\kates\Desktop\гуап\оп\LR666\LR6
 git pull 
-git log --all
+git log -w
 ls -1
 git checkout <branch.name>
 git merge
