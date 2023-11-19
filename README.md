@@ -16,9 +16,12 @@
 **   **
 ![1 2](https://github.com/CrookedCoookie/LR6/assets/113693061/9e10c2b7-a510-4a49-a43b-f3149f6007b7)
 #
-**4.** Просмотр действий с веткой командой git log -w.
+**4.** Просмотр действий с веткой командой git log --pretty.
 **   **
-![image](https://github.com/CrookedCoookie/LR6/assets/113693061/d3a1e547-a479-488c-9c66-b91479c66996)
+![1 9](https://github.com/CrookedCoookie/LR6/assets/113693061/d4952c65-17a2-44eb-9928-40ed19a7fdee)
+![1 10](https://github.com/CrookedCoookie/LR6/assets/113693061/144b6989-a68d-40fb-a9ef-d515b41c8643)
+![1 11](https://github.com/CrookedCoookie/LR6/assets/113693061/6a943266-e080-4f05-9a7d-3b2491f6eb19)
+
 
 #
 **5.** В гитхабе был создан новый файл, который сохранился в новой ветке MergeBranch. Произошло слияние MergeBranch в master.
@@ -39,7 +42,7 @@
 git clone https://github.com/CrookedCoookie/LR6
 cd C:\Users\kates\Desktop\гуап\оп\LR666\LR6
 git pull 
-git log -w
+git log --pretty
 ls -1
 git checkout <branch.name>
 git merge
